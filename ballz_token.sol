@@ -7,9 +7,9 @@ pragma solidity ^0.4.18;
 // Symbol      : BLZ
 // Name        : Ballz Token
 // Total supply: 1000000000
-// Decimals    : 0
+// Decimals    : 3
 //
-// Enjoy.
+// Adapted by @cryptolucciano (twitter)
 //
 // (c) by Moritz Neto with BokkyPooBah / Bok Consulting Pty Ltd Au 2017. The MIT Licence.
 // ----------------------------------------------------------------------------
@@ -115,8 +115,8 @@ contract BallzToken is ERC20Interface, Owned, SafeMath {
     function BallzToken() public {
         symbol = "BLZ";
         name = "Ballz Token";
-        decimals = 0;
-        _totalSupply = 1000000000;
+        decimals = 3;
+        _totalSupply = 1000000000000;
         balances[0xb1b547686b6230b318f6a2b291bdc7fdf7d73ffc] = _totalSupply;
         Transfer(address(0), 0xb1b547686b6230b318f6a2b291bdc7fdf7d73ffc, _totalSupply);
     }
