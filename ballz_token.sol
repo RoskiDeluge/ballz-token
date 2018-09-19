@@ -9,7 +9,7 @@ pragma solidity ^0.4.18;
 // Total supply: 1000000000
 // Decimals    : 3
 //
-// Adapted by @cryptolucciano (twitter)
+// Adapted by @roskideluge (twitter)
 //
 // (c) by Moritz Neto with BokkyPooBah / Bok Consulting Pty Ltd Au 2017. The MIT Licence.
 // ----------------------------------------------------------------------------
